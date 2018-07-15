@@ -7,7 +7,7 @@ const Rx = require('rx');
 const _ = require('lodash');
 const createDebugger = require('debug');
 const utils = require('../server/utils');
-const { getChallenges } = require('@freecodecamp/curriculum');
+const { getChallenges } = require('@freecodecamp-china/curriculum');
 const { validateChallenge } = require(
   './schema/challengeSchema'
 );
